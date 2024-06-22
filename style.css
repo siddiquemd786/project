@@ -1,0 +1,34 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #FAFAFA;
+    font-family: Plus Jakarta Sans;
+}
+
+.navbar {
+    vertical-align: middle;
+}
+.large-text{
+    font-family: Nexa;
+font-size: 74px;
+font-weight: 900;
+line-height: 92px;
+text-align: left;
+
+}
+
+
+
+.vertical{
+    grid-row:auto/span2;
+}
+.horizonal{
+    grid-column:auto/span2;
+}
